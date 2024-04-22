@@ -28,7 +28,7 @@ export default async function handler(
                         user: true
                     },
                     orderBy: {
-                        createAt: 'desc'
+                        createdAt: 'desc'
                     }
                 }
             }
