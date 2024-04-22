@@ -22,7 +22,7 @@ export default async function handler(
                 userId
             },
             orderBy: {
-                createAt: 'desc'
+                createdAt: 'desc'
             }
         });
 
